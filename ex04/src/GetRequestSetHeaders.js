@@ -5,7 +5,7 @@ import axios from 'axios';
 class GetRequestSetHeaders extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { totalReactPackafes: null };
+        this.state = { totalReactPackages: null };
     }
 
     componentDidMount() {
